@@ -34,6 +34,7 @@ public class AddOrRemoveStudentActivity extends AppCompatActivity implements Ada
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_or_remove_student);
 
+        // set Title on App bar
         setTitle("Add or Remove Student");
         studentDatabaseReference = FirebaseDatabase.getInstance().getReference().child("STUDENTS");
         Spinner studentClassSpinner = findViewById(R.id.select_class_student_spinner);
