@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.attendancesystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="com.android.hardware.Camera.focus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_launcher_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.GenerateReportActivity" />
+        <activity android:name=".activities.ChangePasswordActivity" />
+        <activity android:name=".activities.AddOrRemoveStudentActivity$ChangePasswordActivity" />
+        <activity android:name=".activities.TakeAttendanceActivity" />
+        <activity android:name=".activities.ViewStudentAttendanceActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".activities.SignInActivity"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity android:name=".activities.AddOrRemoveStudentActivity" />
+        <activity android:name=".activities.AddOrRemoveTeacherActivity" />
+        <activity android:name=".activities.AdminActivity" />
+        <activity android:name=".activities.StudentActivity" />
+        <activity android:name=".activities.TeacherActivity" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:theme="@style/AppTheme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+    </application>
+
+</manifest>

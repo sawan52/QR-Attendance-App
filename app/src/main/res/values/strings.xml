@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">QR Attendance</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="login">Log In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="add_or_remove_teacher">Add or Remove Teacher</string>
+    <string name="add_or_remove_student">Add or Remove Student</string>
+    <string name="generate_attendance_report">Generate Attendance Report</string>
+    <string name="change_password">Change Password</string>
+    <string name="log_out">Log Out</string>
+    <string name="todo">TODO</string>
+    <string name="qr_attendance_text">QR Attendance</string>
+    <string name="student_name">Student Name</string>
+    <string name="remove_student">Remove Student</string>
+    <string name="add_student">Add Student</string>
+    <string name="user_info">User Info</string>
+    <string name="teacher_name">Teacher Name</string>
+    <string name="student_username">Student Username</string>
+    <string name="student_password">Student Password</string>
+    <string name="teacher_username">Teacher Username</string>
+    <string name="teacher_password">Teacher Password</string>
+    <string name="teacher_subject">Teacher Subject</string>
+    <string name="add_teacher">Add Teacher</string>
+    <string name="remove_teacher">Remove Teacher</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="new_user_register_here">New User? Register here…</string>
+    <string name="confirm_your_password">Confirm your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="total_attendance">Total Attendance: 00.00%</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="take_attendance">Take Attendance</string>
+    <string name="dd_mm_yyyy">DD-MM-YYYY</string>
+    <string name="submit">Submit</string>
+    <string name="present_class_status">Present Classes:</string>
+    <string name="absent_class_status">Absent Classes:</string>
+    <string name="text_view">Text View</string>
+    <string name="name_hint">Name</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string-array name="classes_for_teacher_and_students">
+        <item>Select Class</item>
+        <item>CS-81</item>
+        <item>CS-82</item>
+        <item>CS-83</item>
+        <item>CS-84</item>
+    </string-array>
+
+    <string-array name="select_login_method">
+        <item>Select profile</item>
+        <item>admin</item>
+        <item>teacher</item>
+        <item>student</item>
+    </string-array>
+
+    <string-array name="period_spinner">
+        <item>Select Period</item>
+        <item>Period 1</item>
+        <item>Period 2</item>
+        <item>Period 3</item>
+        <item>Period 4</item>
+        <item>Period 5</item>
+        <item>Period 6</item>
+        <item>Period 7</item>
+        <item>Period 8</item>
+    </string-array>
+
+    <string name="full_detail">List of students…</string>
+    <string name="name">Name</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="textView">TextView</string>
+
+</resources>
